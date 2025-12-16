@@ -121,7 +121,7 @@ Restart Snort:
 sudo snort -q -l /var/log/snort -i ens33 -A console -c /etc/snort/snort.conf
 
 From Kali Linux:
-ftp kali@192.168.56.104
+ftp <ubuntu_vm_ip> 21
 
 FTP alerts will be generated.
 
@@ -139,7 +139,7 @@ Restart Snort:
 sudo snort -q -l /var/log/snort -i ens33 -A console -c /etc/snort/snort.conf
 
 From Kali Linux:
-ssh <Ubuntu_VM_IP>
+ssh <username>@<Ubuntu_VM_IP>
 
 SSH alerts will appear in real time.
 
